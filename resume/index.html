@@ -4,31 +4,57 @@
 <head>
     <meta charset="utf-8">
    <title>Alana Varela</title>
+   <link href="http://fonts.googleapis.com/css?family=Outfit" rel="stylesheet" type="text/css">
+   <link href="http://fonts.googleapis.com/css?family=Calistoga" rel="stylesheet" type="text/css">
    <style>
     body {
- background-color: #edf1ab;
+ background-color: #f8e2a6;
+ background-image: linear-gradient(180deg, #f8e2a6, #f0c7c7, salmon);
  margin: 0 10%;
- font-family: sans-serif;
+ font-family: "Outfit", sans-serif;
  }
 h1 {
  text-align: center;
- font-family: serif;
+ font-family: "Calistoga", serif;
  font-weight: normal;
+ font-size: 300%;
  text-transform: none;
- border-bottom: 3px solid #eb4444;
+ border-bottom: 3px solid #dd526f;
  margin-top: 30px;
+ color: #173b49;
 }
 h2 {
- color: #35811e;
- font-size: 1em;
+ color: #234c5f;
+ font-size: 1.3em;
+ font-family: "Calistoga", sans-serif;
 }
 footer { 
- border-top: 1px solid #34a9df;
+ border-top: 2px solid #dd526f;
  text-align: center;
  padding-top: 1em; 
 } 
-div {
+#gallery {
     text-align:center;
+}
+#skills {
+    text-align: left;
+    float:left;
+    font-size: medium;
+}
+#software {
+    text-align: left;
+    float: right;
+}
+#about {
+    text-align: center;
+    font-size: larger;
+    margin-left: 1.5em;
+    margin-right: 1.5em; 
+}
+#about p {
+    background-color: #173b49;
+    padding: 2%;
+    color:#fff
 }
 footer img {
  width: 40px;
@@ -39,11 +65,15 @@ footer img {
    </style>
 </head>
 <body>
-<h1><img src="yelsmile.gif" alt=":&#41;"><b>Welcome to Alana's Online Resume!</b><img src="yelsmile.gif" alt=":&#41;"></h1>
-    <p>My name is <strong>Alana Varela</strong>. I'm an Emerging Media student at Seminole State College of Florida and the University of Central Florida. My artwork has been featured <b>5</b> times in SSC student art shows and won <b>2</b> cash awards: <strong>Best of 3D Design in 2022</strong> and a <strong>Merit Award</strong> in 2023. <em>I am committed to mastering the art of animation in every facet.</em> 
-    <br>I have previously worked customer and food service at Panera Bread from Aug 2021-Aug 2022, but now I'm a full-time student.</p>
+<h1><img src="yelsmile.gif" alt=":&#41;" style="padding-right: 20px;"><b>Welcome to Alana's Online Resume!</b><img src="yelsmile.gif" alt=":&#41;" style="padding-left: 20px;"></h1>
 
-<h2>Skills</h2>
+<div id="about">
+    <img src="me.jpg">
+    <p>My name is <strong>Alana Varela</strong>. I'm an Emerging Media student at Seminole State College of Florida and the University of Central Florida. My artwork has been featured <b>5</b> times in SSC student art shows and won <b>2</b> cash awards: <strong>Best of 3D Design in 2022</strong> and a <strong>Merit Award</strong> in 2023. <em>I am committed to mastering the art of animation in every facet.</em> 
+    I have previously worked customer and food service at Panera Bread from Aug 2021-Aug 2022, but now I'm a full-time student.</p>
+</div>
+
+<div id="skills"><h2>Skills</h2>
         <ul>
             <li>Hand drawn 2D animation</li>
             <li>Drawing in various mediums (Charcoal, graphite, ink, digital)</li>
@@ -58,8 +88,9 @@ footer img {
             <li>Basic HTML</li>
             <li>Learning website design</li>
             <li>Learning 3D Animation and Modeling</li>
-        </ul>
-<h2>Software</h2>
+        </ul> </div>
+
+<div id="software"><h2>Software</h2>
 <ul>
 	<li>Visual Studio Code (HTML)</li>
 	<li>Adobe Premiere Pro</li>
@@ -69,13 +100,13 @@ footer img {
 	<li>Krita (open source digital painting software)</li>
 	<li>Audacity</li>
 	<li>Learning Blender for 3D animation and modeling</li>
-</ul>
-<h2>Social Media Links</h2>
-<p> <a href="https://www.instagram.com/alonzoarts/" target="_blank"><img src="instagram.svg" width="60" height="60" alt="Instagram"></a>
-    <a href="https://www.youtube.com/channel/UC9o1eio7MUyGPBMCXCUrooQ" target="_blank"><img src="youtube.svg" width="65" height="65" alt="YouTube"></a></p>
+</ul> </div>
 
-<div>
-<a id="gallery"><h1>Work Samples</h1></a>
+<footer><a href="https://www.instagram.com/alonzoarts/" target="_blank"><img src="instagram.svg" width="60" height="60" alt="Instagram"></a>
+    <a href="https://www.youtube.com/channel/UC9o1eio7MUyGPBMCXCUrooQ" target="_blank"><img src="youtube.svg" width="65" height="65" alt="YouTube"></a></footer>
+
+<div id="gallery">
+<a id="gallery"><h1 style="padding-top: 30px;">Work Samples</h1></a>
 <h2>Traditional Art</h2>
 <a href="Samples/Self_Portrait.html"><img src="Samples/Self_Portrait1.jpg" alt="Self Portrait of Alana in graphite"></a>
 <a href="Samples/graphiteskull.html"><img src="Samples/graphiteskull1.jpg" alt="A drawing of various animal skulls in graphite"></a>
@@ -93,4 +124,6 @@ footer img {
     <a href="Samples/spamlogo.html"><img src="Samples/SpamLogo1.jpg" alt="A colorful vector logo featuring Spamton G Spamton"></a>
 
 </div>
+<img src="gw.gif" height="50px" width="50px">
+
 </body>
