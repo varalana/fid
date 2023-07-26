@@ -1,0 +1,48 @@
+#homelink {
+    margin-left: -120px;
+}
+   body {
+    color: #000000;
+    font-size: 100%;
+    background-color: #ffffff;
+    background-image: url(images/brick_texture.svg);
+    background-repeat: no-repeat;
+    font-family: Candara, Trebuchet;
+    margin: 0 10%;
+    text-align: left;   
+}
+h1 {
+    color: #000000;
+    background-color: rgb(228, 154, 58);
+    border: 4px dashed;
+    padding: 20px;
+    font-size: 200%;
+    font-family: "Britannic Bold", serif;
+    text-align: center;
+}
+nav {
+    background-color: #c81616;
+    border: 2px dashed;
+}
+ a:link {
+color:#ffffff;
+}
+ a:visited{
+color:#c5be81;
+}
+a:hover {
+color: #ffe571;
+}
+#pitch {
+    background-image: radial-gradient(#fffcf0,#ffe571);
+    padding: 15px;
+    text-align: center;
+}
+blockquote {
+    float: left;
+    font-size: large;
+    text-align: center;
+}
+footer {
+    border-top: 6px solid #ce4343;
+}

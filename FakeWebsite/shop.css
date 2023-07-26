@@ -1,0 +1,56 @@
+#homelink {
+    margin-left: -120px;
+}
+   body {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(images/brick_texture.svg);
+    background-repeat: no-repeat;
+    font-family: Candara, Trebuchet, sans-serif;
+    margin: 0 10%;
+    text-align: left;   
+}
+h1 {
+    color: #000000;
+    background-color: rgb(228, 154, 58);
+    border: 4px dashed;
+    padding: 20px;
+    font-size: 200%;
+    font-family: "Britannic Bold", serif;
+    text-align: center;
+}
+nav {
+    background-color: #c81616;
+    border: 2px dashed;
+}
+ a:link {
+color:#ffffff;
+}
+ a:visited{
+color:#c5be81;
+}
+a:hover {
+color: #ffe571;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1dbdb;
+    border: 2px dashed;
+    padding: 3px;
+}
+.pic{
+    text-align: center;
+}
+.description {
+    font-size: larger;
+    text-align: left;
+    margin-bottom: 10%;
+}
+.price {
+    font-size: 3rem;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+footer {
+    border-top: 6px solid #ce4343;
+}
