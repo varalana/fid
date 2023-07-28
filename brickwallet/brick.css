@@ -24,6 +24,14 @@ nav {
     background-color: #c81616;
     border: 2px dashed;
 }
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li {
+    margin-left: 12%;
+}
  a:link {
 color:#ffffff;
 }
